@@ -1,0 +1,7 @@
+Create a new folder called 'hw6' and copy over the content from hw5. 
+You MUST remove the table used as your main page layout and replace it with 
+appropriate CSS. You may download bootstrap and use it or any themes based on 
+it for your layout. Your pages must maintain the same data and menus from hw5, 
+just use CSS for layout and design. You may keep any tables you use within your 
+page to display other data. Turn in the url to your homework on Blackboard.
+
