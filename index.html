@@ -1,278 +1,100 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>Homework 6</title>
-    <meta name="generator" content="LibreOffice 7.3.7.2 (Linux)" />
-    <meta name="created" content="2023-02-13T14:40:00.087026092" />
-    <meta name="changed" content="2023-02-14T21:08:33.997531768" />
+    <title>Index HTML</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Built-on template for Web Technologies.">
-    <meta name="author" content="Ryan Hunter Johnston">
-
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
 
+  <!----------------------------------BODY------------------------------------->
   <body>
-    <!-- Some bootstrap code -->
-    <img src="../hw6/resources/images/safe_landing.jpg" alt="Safe Landing Wallpaper"
-    width="576" height="324" class="center"> <br>
-    <a href="../hw6/index.html"><input type="button" name="dashboardButton"
-      value="Back to dashboard"></a>
+    <div class="container-fluid p-5 bg-primary text-white text-center">
+      <h1>Ryan H. Johnston</h1>
+      <p>Welcome to my website! Feel free to look navigate.</p>
+    </div>
 
-    <table cellspacing="0" border=".5">
-      <colgroup span="12" width="85"></colgroup>
-      <tr>
-        <td colspan=12 rowspan=2 height="34" align="center" bg>
-          <font face="Lato">
-            <h1>Welcome to my Web Page!</h1>
-          </font>
-        </td>
-      </tr>
-      <tr>
-      </tr>
-      <tr> 
-        <!-- HOME BUTTON -->
-        <td colspan=2 height="17" align="center">
-          <font face="Lato"></font>
-          <a href="../hw6/home.html"><input type="button"
-            name="homeButton" value="Home"></a></td>
+    <!----------------------------------NAVIGATION BAR---------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href=""><img
+        src="resources/images/linux-logo.jpg" alt="Tux logo" width="82"
+        height="51.2"></a>
+      <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </a>
 
-        <td colspan=2 align="center">
-          <font face="Lato"></font>
-          <a href="../hw6/education.html"><input type="button" name="educationButton" 
-            value="Education"></a></td>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto d-inline-flex p-2 ">
+          <li class="nav-item active">
+            <a type="button" class="nav-link border" href="home.html">Home <span
+                class="sr-only">(current)</span></a>
+            <li class="nav-item active">
+              <a type="button" class="nav-link border" href="education.html">Education
+                <span class="sr-only">(current)</span></a>
+              <li class="nav-item active">
+                <a type="button" class="nav-link border" href="work.html">Work<span
+                    class="sr-only">(current)</span></a>
+                <li class="nav-item active">
+                  <a type="button" class="nav-link border"
+                    href="hobbies.html">Hobbies<span class="sr-only">(current)</span></a>
+                  <li class="nav-item active">
+                    <a type="button" class="nav-link border"
+                      href="social-media.html">Social Media <span
+                        class="sr-only">(current)</span></a>
+                    <li class="nav-item active">
+                      <a type="button" class="nav-link border"
+                        href="contact.html">Contact<span
+                          class="sr-only">(current)</span></a>
 
-        <td colspan=2 align="center">
-          <font face="Lato"></font>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <a class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</a>
+        </form>
+      </div>
+    </nav>
 
-          <a href="../hw6/work.html"><input type="button" name="workButton"
-            value="Work"></a></td>
+    <!-- Dashboard Columns -->
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3 class="text-center">Home</h3>
+          <p>I'm a junior Computer Science student attending the Universitiy of
+          Texas at San Antonio. My major's concentration is in Software Engineering,
+          and I'm minoring in Mathematics. Having both Software Engineering and
+          Mathematics under my belt, I can have the skills of building software
+          products/services while understanding the math theory needed to work in
+          future fields with a heavy emphasis on mathematics.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-center">Education</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-center">Work</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-center">Hobbies</h3>
+          <p>Write hobbies here.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-center">Social Media</h3>
+          <p>Write social media here.</p>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-center">Contact</h3> 
+          <p>Write contact here.</p> 
+        </div>
+      </div>
+    </div>
 
-        <td colspan=2 align="center">
-          <font face="Lato"></font><a href="../hw6/hobbies.html"><input type="button"
-            name="hobbiesButton"
-            value="Hobbies"></a></td>
-
-        <!-- Will add the SM Link later -->
-        <td colspan=2 align="center">
-          <font face="Lato"></font><input type="button" name="smLinkButton" value="SM Link"></td>
-
-
-        <td colspan=2 align="center">
-          <font face="Lato"></font><a href="../hw6/contact.html"><input type="button"
-            name="contactButton" value="Contact"></a></td>
-      </tr>
-      <tr>
-        <td colspan=12 height="17" align="center" bg>
-          <font face="Lato"><br>
-            <p>My name is Ryan Johnston, and I’m a Computer Science student and future Software Engineer.</p>
-          </font>
-        </td>
-      </tr>
-      <tr>
-        <td colspan=6 height="17" align="center" bg>
-          <font face="Lato">
-            <h3>Home</h3>
-          </font>
-        </td>
-        <td border-left: 1px solid #000000; colspan=6 align="center" bg>
-          <font face="Lato">
-            <h3>Education</h3>
-          </font>
-        </td>
-      </tr>
-      <tr>
-        <td colspan=6 rowspan=5 height="94" align="center" valign=middle bg>
-          <font face="Lato">I'm a junior Computer Science student attending the University of Texas at San Antonio. My major's concentration is in Software Engineering, and I'm minoring in Mathematics.Having both Software Engineering and Mathematics under my belt, I can have the skills of building software products/services while understanding the math theory needed to work in the field of artificial intelligence.</font>
-        </td>
-
-
-        <td align="center" bg>
-          <font face="Lato">Schedule</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">Monday</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">Tuesday</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">Wednesday</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">Thursday</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">Friday</font>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" bg>
-          <font face="Lato">CS 3443</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">12:00-12:50</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">12:00-12:50</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">12:00-12:50</font>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" bg>
-          <font face="Lato">CS 3743</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">4:00-5:15</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">4:00-5:15</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" bg>
-          <font face="Lato">CS 3773</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">11:30-12:45</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">12:30-12:45</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-      </tr>
-      <tr>
-        <td align="center" bg>
-          <font face="Lato">CS 4413</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">8:30-9:45</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato">8:30-9:45</font>
-        </td>
-        <td align="center" bg>
-          <font face="Lato"><br></font>
-        </td>
-      </tr>
-      <tr>
-        <td colspan=6 height="17" align="center" bg>
-          <font face="Lato">
-            <h3>Work</h3>
-          </font>
-        </td>
-        <td colspan=6 align="center" bg>
-          <font face="Lato">
-            <h3>Hobbies</h3>
-          </font>
-        </td>
-      </tr>
-      <tr>
-        <td colspan=6 rowspan=5 height="85" align="center" valign=middle bg>
-          <font face="Lato">
-            <ol>
-
-              <li>
-                <a href="../hw3/info-pages/operating-systems-engineer.html">
-                  Operating Systems Engineer</a>
-              </li>
-              <li>
-                <a href="../hw3/info-pages/systems-engineer.html">
-                  Systems Engineer/Administrator</a>
-              </li>
-              <li>
-                <a href="../hw3/info-pages/software-engineer.html">
-                  Software Engineer</a>
-              </li>
-            </ol>
-          </font>
-        </td>
-
-        <td colspan=6 rowspan=5 align="center" valign=middle bg>
-          <font face="Lato">• Unix/Linux and Open-source programming.
-            <br>• Cooking new recipes.<br>• Weight-lifting and running.
-            <br>• Reading books.<br>
-            <img width="40px" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Gentoo Linux Penguin">
-          </font>
-        </td>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-        <td colspan=6 height="17" align="center" bg>
-          <font face="Lato">
-            <h3>Social Media Link</h3>
-          </font>
-        </td>
-        <td colspan=6 align="center" bg>
-          <font face="Lato">
-            <h3>Contact</h3>
-          </font>
-        </td>
-      </tr>
-      <tr>
-        <td colspan=6 rowspan=5 height="85" align="center" valign=middle bg>
-          <font face="Lato">Social media links will be posted here in the future.</font>
-        </td>
-        <td colspan=6 rowspan=5 align="center" valign=middle bg>
-          <font face="Lato">You can contact me at <a href="mailto:ryanhjohnstoncollege@gmail.com">ryanhjohnstoncollege@gmail.com</a> for more information.</font>
-        </td>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-      </tr>
-      <tr>
-      </tr>
-    </table>
-
-    <!-- jQuery/bootstrap code put at the end of the page for better
-      optimization when loading the page -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> 
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> 
 
   </body>
-
 </html>
